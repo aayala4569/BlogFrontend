@@ -2,3 +2,23 @@ body {
   background: #3f3c3c;
   color: beige;
 }
+.footer {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  --background-light: #FFFFFF;
+  --background-dark: #000000;
+  --text-light: #000000;
+  --text-dark: #FFFFFF;
+}
+body.light-mode {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}

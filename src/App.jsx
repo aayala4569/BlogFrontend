@@ -6,6 +6,7 @@ import CreateAccount from "./components/CreateAccount";
 import Login from "./components/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         {/* <CreateAccount/> */}
         {/* <BlogPage/> */}
         {/* <Dashboard /> */}
+        
 
         <Routes>
 
@@ -37,7 +39,11 @@ function App() {
     </Container>
     
     
+        <Footer/>
     </BrowserRouter>
+
+
+
   );
 }
 
