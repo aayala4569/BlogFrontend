@@ -14,10 +14,10 @@ const NavBar = () => {
 
   return (
     <div>
-      <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
+      
 
     <Nav
-    className={navbarClasses}
+    className={navbarClasses} 
     // className='d-flex justify-content-center m-5'
     activeKey="/home"
     // onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
@@ -34,7 +34,7 @@ const NavBar = () => {
     <Nav.Item>
       <Nav.Link  as={Link} to='/CreateAccount' >Create Account</Nav.Link>
     </Nav.Item>
-    
+    <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
     
   </Nav>
   </div>
